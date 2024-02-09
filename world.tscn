@@ -1,8 +1,8 @@
 [gd_scene load_steps=6 format=3 uid="uid://pk1pikjnkfqt"]
 
-[ext_resource type="PackedScene" uid="uid://8h0pmwcqw1pm" path="res://Player_Main/player.tscn" id="1_2gjty"]
-[ext_resource type="PackedScene" uid="uid://cdl5jelrmnqfd" path="res://Player_Main/Level/static_body_2d.tscn" id="2_x2cr1"]
-[ext_resource type="Texture2D" uid="uid://cgq22vejxq7c5" path="res://Character/IMG_5084.PNG" id="3_qd5ll"]
+[ext_resource type="PackedScene" uid="uid://8h0pmwcqw1pm" path="res://Scenes/player.tscn" id="1_2gjty"]
+[ext_resource type="PackedScene" uid="uid://cdl5jelrmnqfd" path="res://Scenes/static_body_2d.tscn" id="2_x2cr1"]
+[ext_resource type="Texture2D" uid="uid://cgq22vejxq7c5" path="res://Assets/IMG_5084.PNG" id="3_qd5ll"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_c0oyu"]
 radius = 93.6056

@@ -11,7 +11,7 @@ const gravity = 120
 const max_jumps = 3
 var current_jumps = 1
 
-func _physics_process(delta):
+func _physics_process(_delta):
 	var input_dir: Vector2 = input()
 	
 	if input_dir != Vector2.ZERO:
