@@ -50,10 +50,3 @@ func jump():
 		velocity.y += gravity
 		if is_on_floor():
 			current_jumps = 1
-
-
-func _on_area_2d_area_entered(area):
-	if area.is_in_group("Portal"):
-		position.x = 4000
-		position.y = 5250
-		
