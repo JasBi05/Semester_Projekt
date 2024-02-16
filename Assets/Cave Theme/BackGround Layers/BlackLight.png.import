@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crm4iq5j8r4d3"
-path="res://.godot/imported/BlackLight.png-b6eee6203d05f0f5fa4e982c21b182f4.ctex"
+path="res://.godot/imported/BlackLight.png-90bb4ab059deb4320b3310767d5abffa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Cave Theme/BackGround Layers/BlackLight.png"
-dest_files=["res://.godot/imported/BlackLight.png-b6eee6203d05f0f5fa4e982c21b182f4.ctex"]
+source_file="res://assets/Cave Theme/BackGround Layers/BlackLight.png"
+dest_files=["res://.godot/imported/BlackLight.png-90bb4ab059deb4320b3310767d5abffa.ctex"]
 
 [params]
 
