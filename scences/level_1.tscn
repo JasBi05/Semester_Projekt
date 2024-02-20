@@ -1,9 +1,9 @@
 [gd_scene load_steps=9 format=3 uid="uid://b8tg0pqq8fmse"]
 
 [ext_resource type="Script" path="res://scripts/level_1.gd" id="1_lhmi8"]
-[ext_resource type="Texture2D" uid="uid://c8ccistt6toqi" path="res://Assets/Background_2.png" id="2_fph7b"]
-[ext_resource type="Texture2D" uid="uid://edfks153nx42" path="res://Assets/Background_1.png" id="3_6360s"]
-[ext_resource type="Texture2D" uid="uid://cdqwbts3ap3e1" path="res://Assets/Assets.png" id="4_hfx1v"]
+[ext_resource type="Texture2D" uid="uid://c8ccistt6toqi" path="res://Assets/Testing/Background_2.png" id="2_fph7b"]
+[ext_resource type="Texture2D" uid="uid://edfks153nx42" path="res://Assets/Testing/Background_1.png" id="3_6360s"]
+[ext_resource type="Texture2D" uid="uid://cdqwbts3ap3e1" path="res://Assets/Testing/Assets.png" id="4_hfx1v"]
 [ext_resource type="PackedScene" uid="uid://dgcrxaabep4ag" path="res://scences/player.tscn" id="5_yh1sy"]
 [ext_resource type="Script" path="res://scripts/follow_cam.gd" id="6_gu5pf"]
 
@@ -474,13 +474,13 @@ sources/0 = SubResource("TileSetAtlasSource_rthnd")
 script = ExtResource("1_lhmi8")
 
 [node name="Background2" type="Sprite2D" parent="."]
-position = Vector2(241, 141)
-scale = Vector2(1.02016, 1.07353)
+position = Vector2(232.5, 133)
+scale = Vector2(1.08669, 1.16176)
 texture = ExtResource("2_fph7b")
 
 [node name="Background1" type="Sprite2D" parent="."]
-position = Vector2(239, 137)
-scale = Vector2(1.01411, 1.04044)
+position = Vector2(232, 133)
+scale = Vector2(1.08669, 1.16176)
 texture = ExtResource("3_6360s")
 
 [node name="TileMap" type="TileMap" parent="."]
