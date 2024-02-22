@@ -5,7 +5,6 @@ const SPEED 		= 100
 const JUMP_POWER 	= 200
 const UP_VECTOR 	= Vector2(0,-1)
 
-
 func _ready():
 	pass 
 
@@ -21,7 +20,7 @@ func _process(delta):
 	check_key_input()
 	
 	move_and_slide()
-
+	
 
 func check_key_input():
 	if Input.is_action_pressed("left"):
