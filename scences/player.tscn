@@ -4,17 +4,18 @@
 [ext_resource type="Texture2D" uid="uid://cluecx101i4n8" path="res://Assets/Testing/Player.png" id="2_u2jix"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_sj1ph"]
-size = Vector2(10, 10)
+size = Vector2(10, 24)
 
 [node name="player" type="CharacterBody2D"]
 script = ExtResource("1_n60mc")
 
 [node name="Player" type="Sprite2D" parent="."]
-position = Vector2(158, 80)
+position = Vector2(158, 69.5)
+scale = Vector2(1, 2.3125)
 texture = ExtResource("2_u2jix")
 hframes = 8
 vframes = 8
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(158, 83)
+position = Vector2(158, 76)
 shape = SubResource("RectangleShape2D_sj1ph")
