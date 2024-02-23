@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dwxyjfd1ncacu"
+path="res://.godot/imported/6- The Veil of Night.ogg-8cfcf8babe232c7af5f7b2acdbd9e318.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/Pack/6- The Veil of Night.ogg"
+dest_files=["res://.godot/imported/6- The Veil of Night.ogg-8cfcf8babe232c7af5f7b2acdbd9e318.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

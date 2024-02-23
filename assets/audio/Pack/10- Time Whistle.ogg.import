@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://5pwx1o4omgap"
+path="res://.godot/imported/10- Time Whistle.ogg-990dab1cca2b41c3e9a3c6ad52119afa.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/Pack/10- Time Whistle.ogg"
+dest_files=["res://.godot/imported/10- Time Whistle.ogg-990dab1cca2b41c3e9a3c6ad52119afa.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

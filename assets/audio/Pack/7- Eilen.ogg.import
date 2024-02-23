@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://ckteyokomlolp"
+path="res://.godot/imported/7- Eilen.ogg-8ddc84265cd13f395281e09a2692a99f.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/Pack/7- Eilen.ogg"
+dest_files=["res://.godot/imported/7- Eilen.ogg-8ddc84265cd13f395281e09a2692a99f.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

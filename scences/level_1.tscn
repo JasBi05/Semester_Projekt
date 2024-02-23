@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://b8tg0pqq8fmse"]
+[gd_scene load_steps=24 format=3 uid="uid://b8tg0pqq8fmse"]
 
 [ext_resource type="Script" path="res://scripts/level_1.gd" id="1_lhmi8"]
 [ext_resource type="Texture2D" uid="uid://dadd6monac1mp" path="res://assets/PineForestParallax/MorningLayer6.png" id="2_6xs5w"]
@@ -12,6 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://dx7eh7kpi54q7" path="res://assets/Cave Theme/long-platforms.png" id="10_ldxxu"]
 [ext_resource type="Texture2D" uid="uid://d17qhf4oc12cv" path="res://assets/Cave Theme/props.png" id="11_yjce0"]
 [ext_resource type="Texture2D" uid="uid://b7h2ec6gl0aud" path="res://assets/Cave Theme/Tiles128x128.png" id="12_ccqky"]
+[ext_resource type="AudioStream" uid="uid://bn3n2gp37nfrc" path="res://assets/audio/Pack/10- Time Whistle.mp3" id="13_lqlo8"]
 
 [sub_resource type="Gradient" id="Gradient_580vp"]
 interpolation_color_space = 2
@@ -3829,3 +3830,10 @@ scale = Vector2(8.05469, 4.21875)
 color = Color(0.109804, 0.0470588, 0, 1)
 energy = 8.84
 texture = SubResource("GradientTexture2D_1uwvx")
+
+[node name="bg_music" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("13_lqlo8")
+pitch_scale = 2.48
+max_distance = 100.0
+attenuation = 2.46229
+panning_strength = 0.22

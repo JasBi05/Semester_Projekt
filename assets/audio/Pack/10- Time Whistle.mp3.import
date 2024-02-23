@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bn3n2gp37nfrc"
+path="res://.godot/imported/10- Time Whistle.mp3-a7e772b5dce00288a71f3799ece07427.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/Pack/10- Time Whistle.mp3"
+dest_files=["res://.godot/imported/10- Time Whistle.mp3-a7e772b5dce00288a71f3799ece07427.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
