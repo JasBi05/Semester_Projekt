@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://b8tg0pqq8fmse"]
+[gd_scene load_steps=24 format=3 uid="uid://b8tg0pqq8fmse"]
 
 [ext_resource type="Script" path="res://scripts/level_1.gd" id="1_lhmi8"]
 [ext_resource type="Texture2D" uid="uid://dadd6monac1mp" path="res://assets/PineForestParallax/MorningLayer6.png" id="2_6xs5w"]
@@ -12,6 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://dx7eh7kpi54q7" path="res://assets/Cave Theme/long-platforms.png" id="10_ldxxu"]
 [ext_resource type="Texture2D" uid="uid://d17qhf4oc12cv" path="res://assets/Cave Theme/props.png" id="11_yjce0"]
 [ext_resource type="Texture2D" uid="uid://b7h2ec6gl0aud" path="res://assets/Cave Theme/Tiles128x128.png" id="12_ccqky"]
+[ext_resource type="PackedScene" uid="uid://bp70soh0vuoqy" path="res://scences/spiegel.tscn" id="13_a3emx"]
 
 [sub_resource type="Gradient" id="Gradient_580vp"]
 interpolation_color_space = 2
@@ -1282,6 +1283,12 @@ texture = ExtResource("10_ldxxu")
 27:24/0 = 0
 27:24/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 27:24/0/physics_layer_0/angular_velocity = 0.0
+28:16/0 = 0
+28:16/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+28:16/0/physics_layer_0/angular_velocity = 0.0
+28:15/0 = 0
+28:15/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+28:15/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e6glg"]
 texture = ExtResource("11_yjce0")
@@ -2766,6 +2773,7 @@ texture = ExtResource("12_ccqky")
 7:12/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 7:12/0/physics_layer_0/angular_velocity = 0.0
 12:12/0 = 0
+12:12/0/modulate = Color(0.741176, 0, 0.356863, 1)
 12:12/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 12:12/0/physics_layer_0/angular_velocity = 0.0
 13:12/0 = 0
@@ -3410,6 +3418,21 @@ texture = ExtResource("12_ccqky")
 11:14/0 = 0
 11:14/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 11:14/0/physics_layer_0/angular_velocity = 0.0
+13:19/0 = 0
+13:19/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+13:19/0/physics_layer_0/angular_velocity = 0.0
+12:19/0 = 0
+12:19/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+12:19/0/physics_layer_0/angular_velocity = 0.0
+11:21/0 = 0
+11:21/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+11:21/0/physics_layer_0/angular_velocity = 0.0
+11:22/0 = 0
+11:22/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+11:22/0/physics_layer_0/angular_velocity = 0.0
+11:23/0 = 0
+11:23/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+11:23/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="TileSet" id="TileSet_gg2tg"]
 physics_layer_0/collision_layer = 1
@@ -3897,3 +3920,6 @@ scale = Vector2(8.05469, 4.21875)
 color = Color(0.109804, 0.0470588, 0, 1)
 energy = 8.84
 texture = SubResource("GradientTexture2D_1uwvx")
+
+[node name="Spiegel" parent="." instance=ExtResource("13_a3emx")]
+position = Vector2(154, 86)

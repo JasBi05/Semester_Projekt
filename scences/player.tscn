@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_n60mc"]
 [ext_resource type="Texture2D" uid="uid://cluecx101i4n8" path="res://assets/Testing/Player.png" id="2_u2jix"]
-[ext_resource type="AudioStream" path="res://assets/audio/Cartoon_Jump.mp3" id="3_yfe4j"]
-[ext_resource type="AudioStream" path="res://assets/audio/Walk_Normal.mp3" id="4_su72i"]
+[ext_resource type="AudioStream" uid="uid://c5w8l76ueppr7" path="res://assets/audio/cartoon-jump-6462.mp3" id="3_nbloi"]
+[ext_resource type="AudioStream" uid="uid://chag3exupxh0f" path="res://assets/audio/walking-96582.mp3" id="4_cgq45"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_sj1ph"]
 size = Vector2(10, 10)
@@ -22,7 +22,7 @@ position = Vector2(158, 83)
 shape = SubResource("RectangleShape2D_sj1ph")
 
 [node name="Jump" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("3_yfe4j")
+stream = ExtResource("3_nbloi")
 
 [node name="Walk" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("4_su72i")
+stream = ExtResource("4_cgq45")
