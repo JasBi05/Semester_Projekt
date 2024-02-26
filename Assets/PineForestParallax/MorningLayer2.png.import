@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://df7htelo4r7v7"
-path="res://.godot/imported/MorningLayer2.png-d7134be5b8d9f1dc01c4756fd0270ac1.ctex"
+path="res://.godot/imported/MorningLayer2.png-e76d66d2f8dc9462d213e72d90dbe02d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/PineForestParallax/MorningLayer2.png"
-dest_files=["res://.godot/imported/MorningLayer2.png-d7134be5b8d9f1dc01c4756fd0270ac1.ctex"]
+source_file="res://assets/PineForestParallax/MorningLayer2.png"
+dest_files=["res://.godot/imported/MorningLayer2.png-e76d66d2f8dc9462d213e72d90dbe02d.ctex"]
 
 [params]
 

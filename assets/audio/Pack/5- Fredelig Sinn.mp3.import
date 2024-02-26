@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b2205lsfsshka"
+path="res://.godot/imported/5- Fredelig Sinn.mp3-632e461ca3c13eff378c75f3ff6b6631.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/Pack/5- Fredelig Sinn.mp3"
+dest_files=["res://.godot/imported/5- Fredelig Sinn.mp3-632e461ca3c13eff378c75f3ff6b6631.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
