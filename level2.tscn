@@ -1,12 +1,8 @@
-[gd_scene load_steps=8 format=3 uid="uid://c6b24jjgdfft7"]
+[gd_scene load_steps=6 format=3 uid="uid://c6b24jjgdfft7"]
 
-[ext_resource type="Script" path="res://Scripts/Walls_Down.gd" id="1_5s1vg"]
 [ext_resource type="Texture2D" uid="uid://cdqwbts3ap3e1" path="res://Assets/Testing/Assets.png" id="1_lmsjw"]
 [ext_resource type="PackedScene" uid="uid://dgcrxaabep4ag" path="res://scences/player.tscn" id="2_m5rco"]
 [ext_resource type="Script" path="res://scripts/follow_cam.gd" id="3_fld8g"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_ox8bn"]
-size = Vector2(9, 114)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nck4g"]
 texture = ExtResource("1_lmsjw")
@@ -473,21 +469,6 @@ sources/0 = SubResource("TileSetAtlasSource_nck4g")
 
 [node name="level2" type="Node2D"]
 
-[node name="Walls_Down" type="CharacterBody2D" parent="."]
-script = ExtResource("1_5s1vg")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls_Down"]
-position = Vector2(344, 807)
-shape = SubResource("RectangleShape2D_ox8bn")
-
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="Walls_Down"]
-position = Vector2(440, 807)
-shape = SubResource("RectangleShape2D_ox8bn")
-
-[node name="CollisionShape2D3" type="CollisionShape2D" parent="Walls_Down"]
-position = Vector2(536, 807)
-shape = SubResource("RectangleShape2D_ox8bn")
-
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_5t8l5")
 format = 2
@@ -498,7 +479,7 @@ layer_1/tile_data = PackedInt32Array(720904, 393216, 1, 720905, 196608, 0, 72090
 layer_2/name = "2"
 layer_2/tile_data = PackedInt32Array(3276842, 458752, 5, 3342378, 458752, 6, 3407914, 458752, 7, 3276843, 524288, 5, 3342379, 524288, 6, 3407915, 524288, 7, 720908, 458752, 5, 786444, 458752, 6, 851980, 458752, 7, 720909, 524288, 5, 786445, 524288, 6, 851981, 524288, 7, 589832, 393216, 5, 655368, 393216, 6, 2097163, 524288, 1, 2162699, 524288, 2, 2228235, 524288, 3, 2293771, 524288, 2, 2031630, 917504, 3, 2097166, 327680, 3, 2162702, 327680, 4)
 layer_3/name = "3"
-layer_3/tile_data = PackedInt32Array(3407896, 327680, 4, 3342360, 327680, 4, 3276824, 327680, 4, 3211288, 327680, 4, 3145752, 327680, 4, 3080216, 327680, 4, 3014680, 327680, 4, 3473429, 327680, 4, 3407893, 327680, 4, 3342357, 327680, 4, 3276821, 327680, 4, 3211285, 327680, 4, 3145749, 327680, 4, 3080213, 327680, 4, 3473435, 327680, 4, 3407899, 327680, 4, 3342363, 327680, 4, 3276827, 327680, 4, 3211291, 327680, 4, 3145755, 327680, 4, 3080219, 327680, 4, 3407902, 327680, 4, 3342366, 327680, 4, 3276830, 327680, 4, 3211294, 327680, 4, 3145758, 327680, 4, 3080222, 327680, 4, 3014686, 327680, 4, 3080225, 327680, 4, 3145761, 327680, 4, 3211297, 327680, 4, 3276833, 327680, 4, 3342369, 327680, 4, 3407905, 327680, 4, 3473441, 327680, 4, 3538958, 327680, 5, 3604494, 327680, 6)
+layer_3/tile_data = PackedInt32Array(3407896, 327680, 4, 3342360, 327680, 4, 3276824, 327680, 4, 3211288, 327680, 4, 3145752, 327680, 4, 3080216, 327680, 4, 3014680, 327680, 4, 3473435, 327680, 4, 3407899, 327680, 4, 3342363, 327680, 4, 3276827, 327680, 4, 3211291, 327680, 4, 3145755, 327680, 4, 3080219, 327680, 4, 3407902, 327680, 4, 3342366, 327680, 4, 3276830, 327680, 4, 3211294, 327680, 4, 3145758, 327680, 4, 3080222, 327680, 4, 3014686, 327680, 4, 3080225, 327680, 4, 3145761, 327680, 4, 3211297, 327680, 4, 3276833, 327680, 4, 3342369, 327680, 4, 3407905, 327680, 4, 3473441, 327680, 4, 3538958, 327680, 5, 3604494, 327680, 6)
 
 [node name="player" parent="." instance=ExtResource("2_m5rco")]
 position = Vector2(99, 133)

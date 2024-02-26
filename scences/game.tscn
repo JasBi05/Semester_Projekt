@@ -1,15 +1,7 @@
 [gd_scene load_steps=2 format=3 uid="uid://chhen8imvcqf7"]
 
-<<<<<<< Updated upstream
-[ext_resource type="PackedScene" uid="uid://cuucix7wnlxii" path="res://scences/level_2.tscn" id="1_syi7c"]
-
-[node name="Game" type="Node2D"]
-
-[node name="level_2" parent="." instance=ExtResource("1_syi7c")]
-=======
 [ext_resource type="PackedScene" uid="uid://c6b24jjgdfft7" path="res://level2.tscn" id="1_vxmb5"]
 
 [node name="Game" type="Node2D"]
 
 [node name="level2" parent="." instance=ExtResource("1_vxmb5")]
->>>>>>> Stashed changes
