@@ -1,13 +1,13 @@
 [gd_scene load_steps=4 format=3 uid="uid://bp70soh0vuoqy"]
 
-[ext_resource type="Script" path="res://Scripts/spiegel.gd" id="1_qbne0"]
+[ext_resource type="Script" path="res://scripts/spiegel.gd" id="1_5kyrp"]
 [ext_resource type="Texture2D" uid="uid://camk21x2rs04k" path="res://assets/icon.svg" id="2_5qsxh"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_g2dqs"]
 size = Vector2(34.5, 58)
 
 [node name="Spiegel" type="Node2D"]
-script = ExtResource("1_qbne0")
+script = ExtResource("1_5kyrp")
 
 [node name="Icon" type="Sprite2D" parent="."]
 position = Vector2(280.5, 114.25)

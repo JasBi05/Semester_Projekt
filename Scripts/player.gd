@@ -47,8 +47,8 @@ func walking_state(delta):
 
 	check_key_input()
 
-	# Hier kannst du den Sound abspielen, wenn im WALKING-Zustand
 	if is_on_floor() and (Input.is_action_pressed("left") or Input.is_action_pressed("right")):
+		# Hier kannst du den Sound abspielen, wenn im WALKING-Zustand
 		if $Walk.playing == false:
 			$Walk.play()
 	else:
@@ -81,9 +81,10 @@ func check_key_input():
 			velocity.y = -JUMP_POWER
 			if $Jump.playing == false:
 				$Jump.play()
+			set_state(PlayerState.JUMPING)
+		else:
+			set_state(PlayerState.IDLE)
 
 func set_state(new_state: PlayerState):
 	if current_state != new_state:
 		current_state = new_state
-	
-
