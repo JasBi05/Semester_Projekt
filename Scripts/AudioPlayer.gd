@@ -1,7 +1,6 @@
-# AudioManager.gd
+extends AudioStreamPlayer2D
 
-extends Node
-
+class_name AudioPlayer
 var walk_sound: AudioStreamPlayer = AudioStreamPlayer.new()
 var jump_sound: AudioStreamPlayer = AudioStreamPlayer.new()
 

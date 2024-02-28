@@ -15,6 +15,10 @@ run/main_scene="res://scences/game.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://assets/icon.svg"
 
+[autoload]
+
+Respawn="*res://Scripts/respawn.gd"
+
 [display]
 
 window/size/viewport_width=480
