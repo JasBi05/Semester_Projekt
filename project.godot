@@ -17,7 +17,7 @@ config/icon="res://assets/icon.svg"
 
 [autoload]
 
-Respawn="*res://Scripts/respawn.gd"
+Respawn="*res://scripts/respawn.gd"
 
 [display]
 
