@@ -475,7 +475,7 @@ sources/0 = SubResource("TileSetAtlasSource_nck4g")
 position = Vector2(384, 737)
 
 [node name="MovingPlatformUp" parent="." instance=ExtResource("3_hfcrp")]
-position = Vector2(431, 735)
+position = Vector2(431, 736)
 
 [node name="Map" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_5t8l5")
