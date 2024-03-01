@@ -472,12 +472,12 @@ sources/0 = SubResource("TileSetAtlasSource_nck4g")
 [node name="level2" type="Node2D"]
 
 [node name="Moving PlatformDown" parent="." instance=ExtResource("4_f6pa1")]
-visible = false
+position = Vector2(384, 737)
 
 [node name="MovingPlatformUp" parent="." instance=ExtResource("3_hfcrp")]
 position = Vector2(431, 735)
 
-[node name="TileMap" type="TileMap" parent="."]
+[node name="Map" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_5t8l5")
 format = 2
 layer_0/name = "4"
@@ -487,7 +487,7 @@ layer_1/tile_data = PackedInt32Array(720904, 393216, 1, 720905, 196608, 0, 72090
 layer_2/name = "2"
 layer_2/tile_data = PackedInt32Array(3276842, 458752, 5, 3342378, 458752, 6, 3407914, 458752, 7, 3276843, 524288, 5, 3342379, 524288, 6, 3407915, 524288, 7, 720908, 458752, 5, 786444, 458752, 6, 851980, 458752, 7, 720909, 524288, 5, 786445, 524288, 6, 851981, 524288, 7, 589832, 393216, 5, 655368, 393216, 6, 2097163, 524288, 1, 2162699, 524288, 2, 2228235, 524288, 3, 2293771, 524288, 2, 2031630, 917504, 3, 2097166, 327680, 3, 2162702, 327680, 4)
 layer_3/name = "3"
-layer_3/tile_data = PackedInt32Array(3407896, 327680, 4, 3342360, 327680, 4, 3276824, 327680, 4, 3211288, 327680, 4, 3145752, 327680, 4, 3080216, 327680, 4, 3014680, 327680, 4, 3407902, 327680, 4, 3342366, 327680, 4, 3276830, 327680, 4, 3211294, 327680, 4, 3145758, 327680, 4, 3080222, 327680, 4, 3014686, 327680, 4, 3538958, 327680, 5, 3604494, 327680, 6)
+layer_3/tile_data = PackedInt32Array(3538958, 327680, 5, 3604494, 327680, 6)
 
 [node name="player" parent="." instance=ExtResource("3_xk3tx")]
 position = Vector2(99, 133)
@@ -498,4 +498,4 @@ zoom = Vector2(1.5, 1.5)
 limit_left = 0
 limit_top = 0
 script = ExtResource("4_kgk6q")
-tilemap = NodePath("../../TileMap")
+tilemap = NodePath("../../Map")
