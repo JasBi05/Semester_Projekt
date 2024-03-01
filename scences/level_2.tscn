@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=3 uid="uid://bhtw32khtjdok"]
+[gd_scene load_steps=9 format=3 uid="uid://bhtw32khtjdok"]
 
 [ext_resource type="Texture2D" uid="uid://cdqwbts3ap3e1" path="res://Assets/Testing/Assets.png" id="1_sj4a1"]
 [ext_resource type="PackedScene" uid="uid://vm2loxsjowvq" path="res://scences/moving_platform_up.tscn" id="3_hfcrp"]
 [ext_resource type="PackedScene" uid="uid://dgcrxaabep4ag" path="res://scences/player.tscn" id="3_xk3tx"]
 [ext_resource type="PackedScene" uid="uid://df1x3pynjdrmq" path="res://scences/moving_platform_down.tscn" id="4_f6pa1"]
 [ext_resource type="Script" path="res://scripts/follow_cam.gd" id="4_kgk6q"]
+[ext_resource type="PackedScene" uid="uid://esgblnx2a31y" path="res://scences/enemy.tscn" id="6_n0eed"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nck4g"]
 texture = ExtResource("1_sj4a1")
@@ -499,3 +500,6 @@ limit_left = 0
 limit_top = 0
 script = ExtResource("4_kgk6q")
 tilemap = NodePath("../../Map")
+
+[node name="Enemy" parent="." instance=ExtResource("6_n0eed")]
+position = Vector2(128, 144)
