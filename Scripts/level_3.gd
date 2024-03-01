@@ -2,8 +2,7 @@ extends Node2D
 
 var bg_music := AudioStreamPlayer.new()
 
-
-
+var death_pos2 = Vector2(456, -9)
 # Called when the node enters the scene tree for the first time.
 
 func _ready():
@@ -26,4 +25,7 @@ func _ready():
 
 	
 
+func _on_player_killed():
+	death_pos2.position 
+	
 
