@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://cspwki1svjilu"]
+
+[ext_resource type="Script" path="res://scripts/Waage.gd" id="1_rjv21"]
+[ext_resource type="Texture2D" uid="uid://camk21x2rs04k" path="res://assets/icon.svg" id="2_jimpy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jhdvt"]
+size = Vector2(138.572, 174.046)
+
+[node name="Waage" type="Node2D"]
+script = ExtResource("1_rjv21")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-9.53674e-07, -3.41061e-13)
+rotation = -3.14159
+scale = Vector2(0.454639, -0.1331)
+texture = ExtResource("2_jimpy")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(2.98022e-08, -5.42101e-20)
+scale = Vector2(1, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-0.499998, -0.999999)
+rotation = -3.14159
+scale = Vector2(0.454639, -0.1331)
+shape = SubResource("RectangleShape2D_jhdvt")
