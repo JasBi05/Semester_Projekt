@@ -15,13 +15,13 @@ const UP_VECTOR      = Vector2(0, -1)
 
 var current_state: PlayerState = PlayerState.IDLE
 var is_walking: bool = false
-var death_pos = Vector2(1033, -9)
+var spawner = null
 
 @onready var walk_sound: AudioStreamPlayer = $Walk
 
 
 func _ready():
-	pass
+	Respawn.player = self
 
 func _process(delta):
 	match current_state:
@@ -41,8 +41,9 @@ func _process(delta):
 
 	move_and_slide()
 	
+	
 	if position.y >= 600:
-		position = death_pos
+		die()
 
 
 func idle_state(delta):
@@ -101,4 +102,5 @@ func set_state(new_state: PlayerState):
 		
 		
 func die():
-	pass
+	Respawn.respawn_player()
+	print("Player died. Respawn function called.")

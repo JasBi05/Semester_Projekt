@@ -1,12 +1,12 @@
 extends Node
 
+var current_checkpoint : Checkpoint 
 
-#var current_checkpoint : Checkpoint 
+var player : Player
 
-#var player : Player
+func respawn_player():
+	if current_checkpoint != null:
+		player.position = current_checkpoint.global_position
+		print("Respawning player at checkpoint position:", player.position)
 
 
-
-#func respawn_player():
-	#if current_checkpoint != null:
-		#player.position = current_checkpoint.global_position
