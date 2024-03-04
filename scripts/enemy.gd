@@ -1,16 +1,17 @@
 extends CharacterBody2D
 
-var run_speed = 25
-var player = null
+var speed = 50
+var player_position
+var target_position
+var leben = 1
+
+@onready var player = get_parent().get_node("player")
 
 func _physics_process(_delta):
-	velocity = Vector2.ZERO
-	if player:
-		velocity = position.direction_to(player.position) * run_speed
-	move_and_slide()
-
-func _on_DetectRadius_body_entered(body):
-	player = body
-
-func _on_DetectRadius_body_exited(_body):
-	player = null
+	
+	player_position = player.position
+	target_position = (player_position - position).normalized()
+	
+	if position.distance_to(player_position) > 0:
+		velocity = target_position * speed
+		move_and_slide()
