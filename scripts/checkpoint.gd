@@ -13,7 +13,7 @@ func activate():
 
 
 func _on_area_2d_body_entered(area):
-	if area is Player && !activated:
+	if area is Player:
 		activate()
 		print("Hat funktioniert")
 

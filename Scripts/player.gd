@@ -8,14 +8,18 @@ enum PlayerState {
 	JUMPING
 }
 
-const GRAVITY        = 200
+const GRAVITY        = 250
 const SPEED          = 100
-const JUMP_POWER     = 200
+const JUMP_POWER     = 190
 const UP_VECTOR      = Vector2(0, -1)
+const ACCELERATION   = 70
 
 var current_state: PlayerState = PlayerState.IDLE
 var is_walking: bool = false
 var spawner = null
+var velo = Vector2.ZERO
+var colliding_ladder = false
+var going_up = false
 
 @onready var walk_sound: AudioStreamPlayer = $Walk
 
@@ -44,7 +48,9 @@ func _process(delta):
 	
 	if position.y >= 600:
 		die()
-
+	if !going_up:
+		velo.y += GRAVITY
+		climb()
 
 func idle_state(delta):
 	velocity.x = 0
@@ -104,3 +110,29 @@ func set_state(new_state: PlayerState):
 func die():
 	Respawn.respawn_player()
 	print("Player died. Respawn function called.")
+
+
+
+func climb():
+	if colliding_ladder:
+		if Input.is_action_just_pressed("up"):
+			going_up = true
+			velo.y = max(velo.y - ACCELERATION, -SPEED)
+
+
+
+
+
+func _on_area_2d_area_entered(area):
+	area.get_name()
+	if area.is_in_group("ladder"):
+		colliding_ladder = true
+		print("YES")
+
+
+func _on_area_2d_area_exited(area):
+	area.get_name()
+	if area.is_in_group("ladder"):
+		colliding_ladder = false
+		going_up = false
+		print("NO")

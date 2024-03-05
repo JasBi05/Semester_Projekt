@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://bsvl11q4is8xr"]
+
+[ext_resource type="Script" path="res://scripts/key.gd" id="1_pq8r6"]
+[ext_resource type="Texture2D" uid="uid://japievsmbh63" path="res://assets/Pixel Art Key Pack - Animated/Pixel Art Key Pack - Animated/Key 1/Key 1 - BRONZE -.png" id="2_k6imj"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_f84kj"]
+
+[node name="StaticBody2D" type="StaticBody2D"]
+script = ExtResource("1_pq8r6")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_k6imj")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CapsuleShape2D_f84kj")
