@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://b3ecng1g2p177"]
+
+[node name="Ende" type="Node2D"]
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_right = 481.0
+offset_bottom = 271.0
+text = "                       
+                                                    Ende"
