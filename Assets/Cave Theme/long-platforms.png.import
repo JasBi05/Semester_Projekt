@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dx7eh7kpi54q7"
-path="res://.godot/imported/long-platforms.png-14d750cae1532a317c24bd3c62fa2722.ctex"
+path="res://.godot/imported/long-platforms.png-3e736469290d24adf67151222d50fd5d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Cave Theme/long-platforms.png"
-dest_files=["res://.godot/imported/long-platforms.png-14d750cae1532a317c24bd3c62fa2722.ctex"]
+source_file="res://assets/Cave Theme/long-platforms.png"
+dest_files=["res://.godot/imported/long-platforms.png-3e736469290d24adf67151222d50fd5d.ctex"]
 
 [params]
 

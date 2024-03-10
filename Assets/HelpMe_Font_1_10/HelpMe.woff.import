@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://pq4eaamuebax"
-path="res://.godot/imported/HelpMe.woff-a307a2d39f8122ca1b1277193d2eaf9a.fontdata"
+path="res://.godot/imported/HelpMe.woff-cce59b64f9bcf16b2fb81f8404075a08.fontdata"
 
 [deps]
 
-source_file="res://Assets/HelpMe_Font_1_10/HelpMe.woff"
-dest_files=["res://.godot/imported/HelpMe.woff-a307a2d39f8122ca1b1277193d2eaf9a.fontdata"]
+source_file="res://assets/HelpMe_Font_1_10/HelpMe.woff"
+dest_files=["res://.godot/imported/HelpMe.woff-cce59b64f9bcf16b2fb81f8404075a08.fontdata"]
 
 [params]
 

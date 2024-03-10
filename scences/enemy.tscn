@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://esgblnx2a31y"]
 
 [ext_resource type="Script" path="res://scripts/enemy.gd" id="1_krss6"]
-[ext_resource type="Texture2D" uid="uid://cdqwbts3ap3e1" path="res://Assets/Testing/Assets.png" id="2_3wxk7"]
+[ext_resource type="Texture2D" uid="uid://cdqwbts3ap3e1" path="res://assets/Testing/Assets.png" id="2_3wxk7"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_abb6t"]
 texture = ExtResource("2_3wxk7")
@@ -154,6 +154,10 @@ sources/0 = SubResource("TileSetAtlasSource_abb6t")
 size = Vector2(16, 30)
 
 [node name="Enemy" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 3
+motion_mode = 1
+wall_min_slide_angle = 0.0
 script = ExtResource("1_krss6")
 
 [node name="TileMap" type="TileMap" parent="."]
@@ -164,3 +168,12 @@ layer_0/tile_data = PackedInt32Array(0, 393216, 5, 65536, 393216, 6)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(8, 17)
 shape = SubResource("RectangleShape2D_a3fn3")
+
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
+debug_enabled = true
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.1
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwvexiipqtq3d"
-path="res://.godot/imported/00.png-4face7bfc0083fcb4e95438dafe5c1ba.ctex"
+path="res://.godot/imported/00.png-219acd9ae7904d1afac9a7e208d8c8f8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Cave Theme/BackGround Layers/00.png"
-dest_files=["res://.godot/imported/00.png-4face7bfc0083fcb4e95438dafe5c1ba.ctex"]
+source_file="res://assets/Cave Theme/BackGround Layers/00.png"
+dest_files=["res://.godot/imported/00.png-219acd9ae7904d1afac9a7e208d8c8f8.ctex"]
 
 [params]
 
