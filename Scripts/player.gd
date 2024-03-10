@@ -22,7 +22,7 @@ var colliding_ladder = false
 var going_up = false
 
 @onready var walk_sound: AudioStreamPlayer = $Walk
-
+#@onready var animation = $AnimationPlayer
 
 func _ready():
 	Respawn.player = self
@@ -98,6 +98,7 @@ func check_key_input():
 			velocity.y = -JUMP_POWER
 			if $Jump.playing == false:
 				$Jump.play()
+				#animation.play("jump")
 				set_state(PlayerState.JUMPING)
 			else:
 				set_state(PlayerState.IDLE)

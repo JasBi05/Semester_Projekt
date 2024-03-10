@@ -1,29 +1,30 @@
 [gd_scene load_steps=5 format=3 uid="uid://ckcdcq7c74vf8"]
 
 [ext_resource type="Script" path="res://scripts/gegner.gd" id="1_31cym"]
-[ext_resource type="Texture2D" uid="uid://camk21x2rs04k" path="res://assets/icon.svg" id="2_es32a"]
+[ext_resource type="Texture2D" uid="uid://dlf41a8khg034" path="res://assets/Redesign/Semester_Projekt/enemy.png" id="2_vehe4"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_twei5"]
 size = Vector2(30, 32)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4xf2m"]
-size = Vector2(32.3987, 75.6644)
+size = Vector2(32.3988, 77.9001)
 
 [node name="Gegner" type="CharacterBody2D"]
 script = ExtResource("1_31cym")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-modulate = Color(1, 0, 0, 1)
-scale = Vector2(0.21875, 0.234375)
-texture = ExtResource("2_es32a")
+scale = Vector2(0.268109, 0.290951)
+texture = ExtResource("2_vehe4")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
 shape = SubResource("RectangleShape2D_twei5")
 
 [node name="Hitbox" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
-position = Vector2(0, -0.0777199)
+visible = false
+position = Vector2(3.90314e-05, -0.577726)
 scale = Vector2(1.04942, 0.447298)
 shape = SubResource("RectangleShape2D_4xf2m")
 
