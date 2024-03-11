@@ -1,0 +1,425 @@
+[gd_scene load_steps=13 format=3 uid="uid://vm2loxsjowvq"]
+
+[ext_resource type="Texture2D" uid="uid://cdqwbts3ap3e1" path="res://Assets/Testing/Assets.png" id="1_sm453"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3pi10"]
+texture = ExtResource("1_sm453")
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+10:0/0 = 0
+11:0/0 = 0
+12:0/0 = 0
+16:0/0 = 0
+17:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+11:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+15:1/0 = 0
+16:1/0 = 0
+17:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+9:2/0 = 0
+10:2/0 = 0
+11:2/0 = 0
+12:2/0 = 0
+13:2/0 = 0
+14:2/0 = 0
+15:2/0 = 0
+17:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+8:3/0 = 0
+9:3/0 = 0
+10:3/0 = 0
+11:3/0 = 0
+12:3/0 = 0
+13:3/0 = 0
+14:3/0 = 0
+15:3/0 = 0
+16:3/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+10:4/0 = 0
+11:4/0 = 0
+12:4/0 = 0
+14:4/0 = 0
+15:4/0 = 0
+16:4/0 = 0
+17:4/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+10:5/0 = 0
+11:5/0 = 0
+12:5/0 = 0
+14:5/0 = 0
+15:5/0 = 0
+16:5/0 = 0
+17:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+8:6/0 = 0
+9:6/0 = 0
+10:6/0 = 0
+11:6/0 = 0
+12:6/0 = 0
+13:6/0 = 0
+14:6/0 = 0
+16:6/0 = 0
+17:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+7:7/0 = 0
+8:7/0 = 0
+9:7/0 = 0
+10:7/0 = 0
+11:7/0 = 0
+12:7/0 = 0
+13:7/0 = 0
+14:7/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+5:8/0 = 0
+6:8/0 = 0
+7:8/0 = 0
+9:8/0 = 0
+10:8/0 = 0
+11:8/0 = 0
+12:8/0 = 0
+13:8/0 = 0
+14:8/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+3:9/0 = 0
+10:9/0 = 0
+11:9/0 = 0
+12:9/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_u811a"]
+sources/0 = SubResource("TileSetAtlasSource_3pi10")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nlsdu"]
+texture = ExtResource("1_sm453")
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+10:0/0 = 0
+11:0/0 = 0
+12:0/0 = 0
+16:0/0 = 0
+17:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+11:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+15:1/0 = 0
+16:1/0 = 0
+17:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+9:2/0 = 0
+10:2/0 = 0
+11:2/0 = 0
+12:2/0 = 0
+13:2/0 = 0
+14:2/0 = 0
+15:2/0 = 0
+17:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+8:3/0 = 0
+9:3/0 = 0
+10:3/0 = 0
+11:3/0 = 0
+12:3/0 = 0
+13:3/0 = 0
+14:3/0 = 0
+15:3/0 = 0
+16:3/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+10:4/0 = 0
+11:4/0 = 0
+12:4/0 = 0
+14:4/0 = 0
+15:4/0 = 0
+16:4/0 = 0
+17:4/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+10:5/0 = 0
+11:5/0 = 0
+12:5/0 = 0
+14:5/0 = 0
+15:5/0 = 0
+16:5/0 = 0
+17:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+8:6/0 = 0
+9:6/0 = 0
+10:6/0 = 0
+11:6/0 = 0
+12:6/0 = 0
+13:6/0 = 0
+14:6/0 = 0
+16:6/0 = 0
+17:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+7:7/0 = 0
+8:7/0 = 0
+9:7/0 = 0
+10:7/0 = 0
+11:7/0 = 0
+12:7/0 = 0
+13:7/0 = 0
+14:7/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+5:8/0 = 0
+6:8/0 = 0
+7:8/0 = 0
+9:8/0 = 0
+10:8/0 = 0
+11:8/0 = 0
+12:8/0 = 0
+13:8/0 = 0
+14:8/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+3:9/0 = 0
+10:9/0 = 0
+11:9/0 = 0
+12:9/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_jqge7"]
+sources/0 = SubResource("TileSetAtlasSource_nlsdu")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bnx7q"]
+size = Vector2(6, 128)
+
+[sub_resource type="Animation" id="Animation_kw2fu"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.001),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_kq2c5"]
+resource_name = "move_up"
+length = 4.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.5, 3, 4),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, 144), Vector2(0, 0), Vector2(0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_0hg7n"]
+_data = {
+"RESET": SubResource("Animation_kw2fu"),
+"move_up": SubResource("Animation_kq2c5")
+}
+
+[sub_resource type="Animation" id="Animation_4824u"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_1al88"]
+resource_name = "moving_up2"
+length = 4.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.5, 3, 4),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, 144), Vector2(0, 0), Vector2(0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_kwdnt"]
+_data = {
+"RESET": SubResource("Animation_4824u"),
+"moving_up2": SubResource("Animation_1al88")
+}
+
+[node name="MovingPlatformUp" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+visible = false
+tile_set = SubResource("TileSet_u811a")
+format = 2
+layer_0/name = "1"
+layer_0/tile_data = PackedInt32Array(-2, 131072, 4, -1, 131072, 4, -65536, 131072, 4, -65535, 131072, 4, -65534, 131072, 4, -65533, 131072, 4, -65532, 131072, 4, -65531, 131072, 4, -65530, 131072, 4, -65529, 131072, 4, -65528, 131072, 4, -65527, 131072, 4, -65526, 131072, 4, -65525, 131072, 4, -65524, 131072, 4, -65523, 131072, 4, -65522, 131072, 4, -65521, 131072, 4, -65520, 131072, 4, -65519, 131072, 4, -65518, 131072, 4, 589822, 393216, 0, 589823, 393216, 0, 524288, 393216, 0, 524289, 393216, 0, 524290, 393216, 0, 524291, 393216, 0, 524292, 393216, 0, 524293, 393216, 0, 524294, 393216, 0, 524295, 393216, 0, 524296, 393216, 0, 524297, 393216, 0, 524298, 393216, 0, 524299, 393216, 0, 524300, 393216, 0, 524301, 393216, 0, 524302, 393216, 0, 524303, 393216, 0, 524304, 393216, 0, 524305, 393216, 0, 524306, 393216, 0, 589824, 917504, 3, 655360, 917504, 3, 720896, 917504, 3, 786432, 917504, 3, 851968, 917504, 3, 917504, 917504, 3, 983040, 917504, 3, 1048576, 917504, 3, 589830, 917504, 3, 655366, 917504, 3, 720902, 917504, 3, 786438, 917504, 3, 851974, 917504, 3, 917510, 917504, 3, 983046, 917504, 3, 1048582, 917504, 3)
+
+[node name="MovingPlatform1" type="Node2D" parent="."]
+
+[node name="Platform1" type="AnimatableBody2D" parent="MovingPlatform1"]
+metadata/_edit_group_ = true
+
+[node name="Wall1" type="TileMap" parent="MovingPlatform1/Platform1"]
+tile_set = SubResource("TileSet_jqge7")
+format = 2
+layer_0/tile_data = PackedInt32Array(0, 327680, 4, 65536, 327680, 4, 131072, 327680, 4, 196608, 327680, 4, 262144, 327680, 4, 327680, 327680, 4, 393216, 327680, 4, 458752, 327680, 4)
+
+[node name="CollisionShape1" type="CollisionShape2D" parent="MovingPlatform1/Platform1"]
+position = Vector2(8, 64)
+shape = SubResource("RectangleShape2D_bnx7q")
+
+[node name="AnimationWall1" type="AnimationPlayer" parent="MovingPlatform1/Platform1"]
+libraries = {
+"": SubResource("AnimationLibrary_0hg7n")
+}
+autoplay = "move_up"
+
+[node name="MovingPlatform2" type="Node2D" parent="."]
+
+[node name="Platform2" type="AnimatableBody2D" parent="MovingPlatform2"]
+metadata/_edit_group_ = true
+
+[node name="Wall2" type="TileMap" parent="MovingPlatform2/Platform2"]
+tile_set = SubResource("TileSet_jqge7")
+format = 2
+layer_0/tile_data = PackedInt32Array(458758, 327680, 4, 393222, 327680, 4, 327686, 327680, 4, 262150, 327680, 4, 196614, 327680, 4, 131078, 327680, 4, 65542, 327680, 4, 6, 327680, 4)
+
+[node name="CollisionShape2" type="CollisionShape2D" parent="MovingPlatform2/Platform2"]
+position = Vector2(104, 64)
+shape = SubResource("RectangleShape2D_bnx7q")
+
+[node name="AnimationWall2" type="AnimationPlayer" parent="MovingPlatform2/Platform2"]
+libraries = {
+"": SubResource("AnimationLibrary_kwdnt")
+}
+autoplay = "moving_up2"
