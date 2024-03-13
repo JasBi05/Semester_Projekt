@@ -52,14 +52,14 @@ func _process(delta):
 		velo.y += GRAVITY
 		climb()
 
-func idle_state(delta):
+func idle_state(_delta):
 	velocity.x = 0
 	if is_on_floor():
 		velocity.y = 0
 
 	check_key_input()
 
-func walking_state(delta):
+func walking_state(_delta):
 	if (is_on_floor() or is_on_ceiling()) and (Input.is_action_pressed("left") or Input.is_action_pressed("right")):
 		# Hier kannst du den Sound abspielen, wenn im WALKING-Zustand
 		if $Walk.playing == false:

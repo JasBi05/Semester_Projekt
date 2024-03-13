@@ -11,8 +11,8 @@ size = Vector2(20, 31)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_sj1ph"]
 size = Vector2(24, 34)
 
-[sub_resource type="Animation" id="Animation_nkm1h"]
-resource_name = "idle"
+[sub_resource type="Animation" id="Animation_van1x"]
+length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -26,8 +26,8 @@ tracks/0/keys = {
 "values": [1]
 }
 
-[sub_resource type="Animation" id="Animation_van1x"]
-length = 0.001
+[sub_resource type="Animation" id="Animation_nkm1h"]
+resource_name = "idle"
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true

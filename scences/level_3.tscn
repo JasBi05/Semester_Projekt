@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=3 uid="uid://bdcl380xji1g5"]
+[gd_scene load_steps=23 format=3 uid="uid://bdcl380xji1g5"]
 
 [ext_resource type="PackedScene" uid="uid://dgcrxaabep4ag" path="res://scences/player.tscn" id="1_i785k"]
 [ext_resource type="Script" path="res://scripts/level_3.gd" id="1_vs6ap"]
@@ -12,6 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://c8ccistt6toqi" path="res://assets/Testing/Background_2.png" id="4_cjux4"]
 [ext_resource type="Texture2D" uid="uid://dy8lt70byx7ng" path="res://assets/Redesign/Semester_Projekt/BG_2.png" id="4_xosqp"]
 [ext_resource type="PackedScene" uid="uid://cspwki1svjilu" path="res://scences/Waage.tscn" id="7_s3fy3"]
+[ext_resource type="Texture2D" uid="uid://bhjrqulgdnoq0" path="res://assets/Redesign/20240313_103704.png" id="7_wu3if"]
 [ext_resource type="PackedScene" uid="uid://drjwbu7i8u58" path="res://scences/checkpoint.tscn" id="8_5i724"]
 [ext_resource type="PackedScene" uid="uid://ckcdcq7c74vf8" path="res://scences/gegner.tscn" id="9_mxxwd"]
 [ext_resource type="PackedScene" uid="uid://c4tklv5ck6em3" path="res://scences/spiegel_ende.tscn" id="10_vh5om"]
@@ -3277,6 +3278,14 @@ position = Vector2(523, 198)
 scale = Vector2(0.46375, 0.5225)
 texture = ExtResource("4_xosqp")
 
+[node name="20240313103704" type="Sprite2D" parent="."]
+position = Vector2(1204, 116)
+scale = Vector2(0.606164, 0.64726)
+texture = ExtResource("7_wu3if")
+
+[node name="Spiegel_Ende" parent="." instance=ExtResource("10_vh5om")]
+position = Vector2(-135, 177)
+
 [node name="player" parent="." instance=ExtResource("1_i785k")]
 modulate = Color(1, 0.498039, 0.403922, 1)
 position = Vector2(1041, 56)
@@ -3304,6 +3313,7 @@ position = Vector2(262, 233)
 position = Vector2(101, 235)
 
 [node name="Checkpoint2" parent="." instance=ExtResource("8_5i724")]
+visible = false
 position = Vector2(808, 210)
 
 [node name="Gegner" parent="." instance=ExtResource("9_mxxwd")]
@@ -3318,5 +3328,9 @@ position = Vector2(-22, 205)
 [node name="Gegner4" parent="." instance=ExtResource("9_mxxwd")]
 position = Vector2(175, 273)
 
-[node name="Spiegel_Ende" parent="." instance=ExtResource("10_vh5om")]
-position = Vector2(-135, 174)
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_left = -177.0
+offset_top = 94.0
+offset_right = -86.0
+offset_bottom = 131.0
+text = " Nochmal?"

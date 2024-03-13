@@ -1,23 +1,24 @@
 [gd_scene load_steps=4 format=3 uid="uid://c4tklv5ck6em3"]
 
 [ext_resource type="Script" path="res://scripts/spiegel_ende.gd" id="1_r0qk8"]
-[ext_resource type="Texture2D" uid="uid://camk21x2rs04k" path="res://assets/icon.svg" id="2_e5bhc"]
+[ext_resource type="Texture2D" uid="uid://cney1on1up5m" path="res://assets/Redesign/Titelloses 294_20240313103635.png" id="2_1mctu"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rue6q"]
-size = Vector2(140.387, 131.821)
+size = Vector2(58.7752, 91.6162)
 
 [node name="Spiegel_Ende" type="Node2D"]
 script = ExtResource("1_r0qk8")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(0, -1)
-scale = Vector2(0.242188, 0.523438)
-texture = ExtResource("2_e5bhc")
+position = Vector2(0, 1)
+scale = Vector2(0.561461, 0.720397)
+texture = ExtResource("2_1mctu")
+metadata/_edit_group_ = true
 
 [node name="Area2D" type="Area2D" parent="Sprite2D"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/Area2D"]
-position = Vector2(3.93775e-06, 0.955226)
+position = Vector2(0.890536, -2.77625)
 shape = SubResource("RectangleShape2D_rue6q")
 
 [connection signal="body_entered" from="Sprite2D/Area2D" to="." method="_on_area_2d_body_entered"]
